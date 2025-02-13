@@ -8,7 +8,7 @@ import Ready from "./Ready";
 
 
 const Form = () => {
-  const [step,setStep] = useState<number>(1)
+  const [step,setStep] = useState<number>(0)
   
   const headerTitle = ["Ticket Selection","Attendee Details","Ready"]
 

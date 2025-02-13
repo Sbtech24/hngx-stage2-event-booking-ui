@@ -7,7 +7,7 @@ import { Icon } from "@iconify/react";
 const Navbar = () => {
   return (
     <header className="max-w-1200 mx-auto p-3">
-        <nav className="flex justify-between p-2 border ">
+        <nav className="flex justify-between p-2 border border-[#197686] rounded-md ">
             <div className="flex items-center">
                 {/* icon */}
                 <div className="border rounded-lg p-1">
