@@ -22,12 +22,12 @@ const Form = () => {
   }
  }
   return (
-    <div className="p-3">
-       <div className="bg-[#197686]">
-       <div className="">
-         <h3>{headerTitle[step]}</h3>
-         <span>Step {step + 1}/3 </span>
-      </div>
+    <div className="p-3 bg-red-600">
+       <div className="bg-[#08252B]">
+          <div>
+            <h3 className="text-[24px]">{headerTitle[step]}</h3>
+            <span className="text-sm">Step {step + 1}/3 </span>
+          </div>
        {/* Progress bar */}
 
        <div>
