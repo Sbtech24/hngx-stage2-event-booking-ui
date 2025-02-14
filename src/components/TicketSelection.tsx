@@ -44,7 +44,6 @@ const TicketSelection = () => {
        <div className="bg-[#052228] border border-[#07373F] p-2">
             <div className="mx-auto sm:flex justify-between p-3 ">
                 {TicketData.map((data,i)=>(
-                    <>
                     <div className="border-2 border-[#197686] p-2 w-[158px] mx-auto rounded-lg my-2" key={i}>
                         <button className="flex flex-col" key={i}>
                         <span className="font-semibold text-[22px]">{data?.price}</span>
@@ -52,7 +51,7 @@ const TicketSelection = () => {
                         <span className="text-[12px] text-[#D9D9D9]">{data?.date}</span>
                         </button>
                     </div>
-                    </>
+                  
                 ))}
             </div>
         </div>
