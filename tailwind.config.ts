@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      fontFamily: {
+        'road-rage': ['"Road Rage"', 'cursive'],
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",

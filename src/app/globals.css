@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 
-
 body{
   
   /* background: linear-gradient(to bottom right, #001a1a, #003333, #001a1a); */
@@ -16,4 +15,33 @@ body{
 
 input,textarea{
   background: transparent;
+}
+
+label{
+  font-size: 13px;
+}
+
+/* components  */
+
+.btn-1{
+  background-color: #24A0B5;
+  color: white;
+  width: 100%;
+  padding: 0.5em;
+  border-radius: 0.3em;
+}
+
+.btn-2{
+  border: 1px solid #24A0B5;
+  color: #24A0B5;
+  padding: 0.5em;
+  border-radius: 0.3em;
+  width: 100%;
+}
+
+/* other */
+.ticket {
+  background-image: url("/public/ticket.png");
+  background: radial-gradient(circle, #072c31, #072c31);
+
 }

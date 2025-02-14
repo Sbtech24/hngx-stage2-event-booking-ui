@@ -1,4 +1,5 @@
 import Image from "next/image"
+import Ticket from "../../public/ticket.png"
 
 const Ready = () => {
   return (
@@ -8,30 +9,16 @@ const Ready = () => {
 
         <p>You can download or Check your email for a copy</p>
 
-        <div>
-          <div>
-              <div>
-                <h2>Techember Fest ”25</h2>
-                <p>📍 04 Rumens road, Ikoyi, Lagos</p>
-                <p>📅 March 15, 2025 | 7:00 PM</p>
+       
+      </div>
 
-                {/* <Image/> */}
-              </div>
+      <div >
+        
+      </div>
 
-              {/* user info */}
-              <div>
-
-              </div>
-          </div>
-
-            {/* Barcode */}
-          <div>
-
-          </div>
-
-          <button>Dowload Ticket</button>
-          <button>Book Another Ticket</button>
-        </div>
+      <div>
+        <button className="btn-1">Download Ticket</button>
+        <button className="btn-2">Book Another Ticket</button>
       </div>
     </div>
   )
